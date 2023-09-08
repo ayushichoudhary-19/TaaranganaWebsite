@@ -168,7 +168,6 @@ header {
 
 }
 
-/* Glowing down arrow styles */
 .glowing-arrow {
   position: relative;
   bottom: 20px;
@@ -179,12 +178,12 @@ header {
 
 }
 
-/* Style for the circular background */
+
 .arrow-circle {
-  width: 50px; /* Adjust the size of the circle */
-  height: 50px; /* Adjust the size of the circle */
-  background-color: #c797eb; /* Background color of the circle */
-  border-radius: 50%; /* Makes it a circle */
+  width: 50px;
+  height: 50px; 
+  background-color: #c797eb; 
+  border-radius: 50%;
   display: flex;
   box-shadow: 0 0 50px #c797eb;
   justify-content: center;
@@ -192,10 +191,9 @@ header {
   animation: pulsate 2s ease-in-out infinite;
 }
 
-/* Style for the FontAwesome icon inside the circle */
 .arrow-circle i {
-  font-size: 24px; /* Adjust the icon size */
-  color: #fff; /* Icon color */
+  font-size: 24px; 
+  color: #fff; 
 }
 
 
@@ -351,7 +349,7 @@ footer{
           margin: 20px 10px;
           text-align: center  ;
           color: #ccc;
-          transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+          transition: color 0.3s ease-in-out; 
       }
 
       .social-icon:hover {
@@ -359,16 +357,16 @@ footer{
 }
 @keyframes pulsate {
   0% {
-      box-shadow: 0 0 20px #c797eb; /* Start with a lower glow intensity */
-      transform: scale(1); /* Initial scale */
+      box-shadow: 0 0 20px #c797eb; 
+      transform: scale(1); 
   }
   50% {
-      box-shadow: 0 0 50px #c797eb; /* Peak glow intensity at 50% of the animation */
-      transform: scale(1.1); /* Slightly increase the size */
+      box-shadow: 0 0 50px #c797eb; 
+      transform: scale(1.1);
   }
   100% {
-      box-shadow: 0 0 20px #c797eb; /* Return to a lower glow intensity */
-      transform: scale(1); /* Back to the original size */
+      box-shadow: 0 0 20px #c797eb; 
+      transform: scale(1); 
   }
 }
 
