@@ -378,7 +378,9 @@ footer{
 @media (max-width: 768px) {
 body {
   width: 100%;
+  overflow: hidden;
 }
+  
   .menu-btn {
       position: absolute;
       z-index: 3;
