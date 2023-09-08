@@ -48,19 +48,15 @@ This Demo website offers several features to showcase its capabilities:
 
 ## Tech Stack
 
-The Finivesta demo website is powered by the following key technologies and libraries:
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/html-5.png" alt="HTML" style="margin: 10px;">
+  <img src="https://img.icons8.com/color/96/000000/css3.png" alt="CSS" style="margin: 10px;">
+  <img src="https://img.icons8.com/color/96/000000/javascript.png" alt="JavaScript (JS)" style="margin: 10px;">
+  <img src="https://img.icons8.com/color/96/000000/firebase.png" alt="Firebase" style="margin: 10px;">
+  <img src="https://img.icons8.com/color/96/000000/visual-studio-code-2019.png" alt="VS Code" style="margin: 10px;">
 
-- **HTML:** The website structure is built using HTML (Hypertext Markup Language), providing the foundation for content and layout.
-
-- **CSS:** CSS (Cascading Style Sheets) is used for styling the website, including fonts, colors, and layout.
-
-- **JavaScript:** JavaScript is employed to add interactivity to the website, specifically for managing active images and other dynamic elements.
-
-- **Google Fonts:** Google Fonts provides the "Roboto" font for text elements, improving readability and aesthetics.
-
-- **External JavaScript Libraries:**
-  - `vanta.js`: This custom JavaScript library is responsible for creating the captivating animated background effects seen on the website.
-
+</p>
+<br>
 
 
 ## MIT License
