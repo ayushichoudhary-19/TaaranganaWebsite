@@ -23,7 +23,7 @@ Welcome to Tarangana's demo website repository. This project os solely created f
 
 ## Demo
 
-Explore the live demo of the Finivesta demo website by clicking [here]([https://ayushichoudhary-19.github.io/finivesta-demo/](https://ayushichoudhary-19.github.io/TaranganaWebsite/)).
+Explore the live demo of the Finivesta demo website by clicking [here](https://ayushichoudhary-19.github.io/TaranganaWebsite/).
 
 ## Features
 
