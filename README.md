@@ -4,13 +4,10 @@
    <h1>Hi there, this is a Demo website for our college's cultural fest -  <a href="https://ayushichoudhary-19.github.io/TaranganaWebsite/">Tarangana</a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 </div>
 
+<h2 align="center"> Please give a ⭐ to this repo if you like my work :) </h2>
 
-### Please give a ⭐ to this repo if you like my work!
 
 ## Demo: [here](https://ayushichoudhary-19.github.io/TaranganaWebsite/)!
-
-<br>
-
 
 ## Screenshots
 ![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/712b0069-4ec0-4b58-8e32-4f961087a3a2)
