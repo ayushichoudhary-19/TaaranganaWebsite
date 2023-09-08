@@ -7,6 +7,10 @@
 ## Please Give a ⭐ to this repo if you like my work!
 ![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/32880f94-e029-4e00-8447-c5dfc7c0704a)
 
+
+![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/4e429c20-6ba6-4640-95a2-2fa94630af29)
+
+
 ## Table of Contents
 
 - [About](#about)
