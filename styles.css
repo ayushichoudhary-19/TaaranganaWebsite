@@ -376,7 +376,9 @@ footer{
 
 
 @media (max-width: 768px) {
-  /* Styling the menu button */
+body {
+  width: 100%;
+}
   .menu-btn {
       position: absolute;
       z-index: 3;
@@ -385,7 +387,7 @@ footer{
       cursor: pointer;
       transition: all 0.5s ease-out;
   }
-  /* Styling the hamburger lines */
+
   .menu-btn .btn-line {
       width: 28px;
       height: 3px;
@@ -394,12 +396,11 @@ footer{
       transition: all 0.5s ease-out;
   }
 
-  /* Adding transform to the X */
+
   .menu-btn.close {
       transform: rotate(180deg);
   }
 
-  /* Styling the three lines to make it an X */
   .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
   }
@@ -412,7 +413,6 @@ footer{
       transform: rotate(-45deg) translate(7px, -6px);
   }
 
-  /* Styling the position of the menu icon */
   .menu {
       display: block;
       visibility: hidden;
@@ -434,7 +434,6 @@ footer{
       padding-left: 100px;
   }
 
-  /* Adding a transition delay to the 4 items in the navigation menu */
   .nav-item:nth-child(1) {
       transition-delay: 0.1s;
   }
