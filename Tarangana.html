@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
+    <title>Tarangana'23</title>
+</head>
+
+<body id="vanta-canvas">
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="logo">
+                    <h1><img src="tarangana-logo.png"/>TARANGANA</h1>
+                </div>
+            </div>
+
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about-us" class="nav-link">ABOUT US</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#image-gallery" class="nav-link">GALLERY</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="auth-buttons">
+            <button class="custom-btn btn-login"><span>Login</span></button>
+            <button class="custom-btn btn-login"><span>Signup</span></button>
+        </div>
+        <div class="Details">
+            <div class="college-name">IGDTUW's</div>
+            <div class="fest-name">TARANGANA</div>
+            <div class="tag-line">The Largest Cultural Fest of<br> Delhi</div>
+        </div>
+        <div id="scroll-down-arrow" class="glowing-arrow">
+            <div class="arrow-circle">
+                <i class="fa fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+        <div class="about-us-overlay"></div>
+        <div class="about-us-box">
+            <h1>About Us</h1>
+            <div class="content-box">
+                <button id="story" class="about-btn active">Story</button>
+                <button id="video" class="about-btn">Video</button>
+                <div id="story-content" class="content active">
+                    Taarangana, the annual cultural fest of IGDTUW, is not just a name, it is an emotion that brings us all together. The festival carves out a niche for itself because of the resolute women driving it.
+                    After nine massively successful editions, the cultural extravaganza is all set to return in February with its 10th edition, Taarangana'23. A spectacle to behold, Taarangana witnesses a gathering 
+                    of zealous students from various colleges across the city who meet, mingle, and share artistic and intellectual interests while making precious memories. Through 
+                    a wide variety of events in music, dance, theatre, and other artistic domains, this two-day cultural blast offers innovative students an opportunity and platform 
+                    to showcase their astounding talents, turning the campus into an ocean of culture, excitement, and opportunities. The main aim of Taarangana has always been to bring
+                    out the best talents and showcase them to the world, and we are more prepared than ever before.
+                </div>
+                <div id="video-content" class="content">
+                    <iframe width="700" height="300" src="https://www.youtube.com/embed/UEyOGOAvC0s" title="Tarangana 2022 | IGDTUW  Fest | Gaurav Kapoor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-gallery" id="image-gallery">
+        <div class="selected-image" id="selected-image">
+            <img src="images/1x1.png" class="active-image">
+            <h1 class="gallery-title" id="element">Woho</h1>
+            <div class="image-options-overlay">
+                <ul class="image-options">
+                    <li class="subimage"><img src="images/image-1.jpg"></li>
+                    <li class="subimage"><img src="images/image-2.jpg"></li>
+                    <li class="subimage"><img src="images/image-3.jpg"></li>
+                    <li class="subimage"><img src="images/image-4.jpg"></li>
+                    <li class="subimage"><img src="images/image-5.jpg"></li>
+                    <li class="subimage"><img src="images/image-6.jpg"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us at <a href="mailto:finance@college.edu">tarangana@gmail.com </a>.</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        Made with <span style="color: #ff69b4;">&#10084;&#65039;</span> by Ayushi Choudhary - MCA'25
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.halo.min.js"></script>
+    <script type="text/javascript">
+        if (window.innerWidth <= 768) {
+            VANTA.HALO({
+                el: "#vanta-canvas",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 100.00,
+                minWidth: 100.00,
+                amplitudeFactor: 0,
+                xOffset: 0, 
+                yOffset: -0.5, 
+                size: 2.10
+            });
+        } else {
+            VANTA.HALO({
+                el: "#vanta-canvas",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                amplitudeFactor: 2.0,
+                xOffset: 0.26, 
+                yOffset: -0.24,
+                size: 2.10
+            });
+        }
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Music</i>', 'Lights', 'Unforgettable Nights!'],
+            typeSpeed: 50,
+            loop:true,
+        });
+    </script>
+
+    <script src="p5.min.js"></script>
+    <script src="vanta.trunk.min.js"></script>
+    <script>
+        VANTA.TRUNK({
+            el: "#selected-image",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            chaos: 4.00,
+            xOffset: 0.26, 
+            yOffset: -0.24,
+        })
+    </script>
+</body>
+
+</html>

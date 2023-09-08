@@ -1,0 +1,514 @@
+body {
+  margin: 0;
+  background-attachment: fixed; 
+  color: white;
+  background-color: #1d244b;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden ;
+}
+
+#vanta-canvas{
+  width: 100%;
+  height: 100vh;
+}
+h1{
+  display: flex;
+  align-items: center !important;
+}
+h1 img{
+  width: 20%;
+  align-items: center;
+}
+
+.menu, .menu-nav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+} 
+
+header {
+  padding: 10px 10px;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  height: max-content;
+}
+
+.menu-nav {
+  padding: 5px 20px;
+}
+
+
+.nav-item {
+  padding-left: 100px;
+}
+
+.nav-item a, .logo {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item a:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.556);
+}
+
+.home {
+  height: 73%
+}
+
+.auth-buttons{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-login {
+  background-color: #f0ecfc;
+  color: black;
+  font-weight: 500px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-login span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-login:before,
+.btn-login:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+.btn-login:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-login:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-login:hover:before {
+  height: 100%;
+}
+.btn-login:hover:after {
+  width: 100%;
+}
+.btn-login:hover{
+  background: transparent;
+}
+.btn-login span:hover{
+  color: white;
+}
+
+.btn-login span:before,
+.btn-login span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #c797eb;
+  transition: all 0.3s ease;
+}
+.btn-login span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-login span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-login span:hover:before {
+  height: 100%;
+}
+.btn-login span:hover:after {
+  width: 100%;
+}
+.Details {
+  text-align:left;
+  margin: 8% 5%; 
+}
+
+.college-name{
+  font-weight: 700;
+  font-size: 2em;
+}
+.fest-name{
+  font-weight: 800;
+  font-size: 5em;
+}
+.tag-line{
+  font-weight: 500;
+  font-size: 1.5em;
+
+}
+
+/* Glowing down arrow styles */
+.glowing-arrow {
+  position: relative;
+  bottom: 20px;
+  left: 100%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 1000;
+
+}
+
+/* Style for the circular background */
+.arrow-circle {
+  width: 50px; /* Adjust the size of the circle */
+  height: 50px; /* Adjust the size of the circle */
+  background-color: #c797eb; /* Background color of the circle */
+  border-radius: 50%; /* Makes it a circle */
+  display: flex;
+  box-shadow: 0 0 50px #c797eb;
+  justify-content: center;
+  align-items: center;
+  animation: pulsate 2s ease-in-out infinite;
+}
+
+/* Style for the FontAwesome icon inside the circle */
+.arrow-circle i {
+  font-size: 24px; /* Adjust the icon size */
+  color: #fff; /* Icon color */
+}
+
+
+.about-us {
+  height: 100vh;
+  background-image: url('images/concert1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.about-us-overlay {
+  background: rgba(0, 0, 0, 0.552);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-us-box {
+  position: relative;
+  padding: 20px;
+}
+
+.about-us-box h1 {
+  color: white;
+  font-size:10em;
+  text-align: center;
+  margin: 0;
+  display: block;
+}
+
+.about-us-box p {
+  color: white;
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(0, 0, 0, 0.242);
+  border-left: 2px solid white;
+  padding-left: 5%;
+  padding: 2%;
+}
+.content-box{
+  padding: 0;
+  margin: 5% 20%;
+  position: relative;
+}
+.about-btn {
+  border: none;
+  padding: 10px 20px;
+  background: none;
+  color: rgba(255, 255, 255, 0.556);
+  font-weight: bolder;
+  font-size: 3em ;
+  cursor: pointer;
+}
+
+.about-btn.active {
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+.about-us-box {
+  position: relative;
+  padding: 20px;
+}
+
+.about-us-box h1 {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+  display: block;
+}
+
+.content{
+  padding-top: 3%;
+  display: none;
+  opacity: 0;
+}
+.content.active {
+  display: block;
+  transition: opacity 0.7s ease-in-out;
+  opacity: 1;
+}
+.selected-image img{
+  width: 100%;
+  height: 100vh;
+}
+
+.gallery-title{
+  position: absolute;
+  top: 0;
+  left: 80;
+  right: 0;
+  bottom: 0;
+  z-index: 5; 
+  font-size: 5em;
+  padding-right:10%;
+}
+
+.image-options-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 1; 
+}
+.image-options{
+  display: grid;
+  grid-template-columns: 16.3% 16.3% 16.3% 16.3% 16.3% 16.3%;
+  list-style: none;
+}
+
+.image-options-overlay .subimage img {
+  width: 80%;
+  height: auto;
+  cursor: pointer; 
+  transition: opacity 0.2s; 
+}
+
+.image-options-overlay .subimage img:hover {
+  opacity: 0.5; 
+  border: 2px solid #ffffff;
+}
+
+.image-options-overlay .subimage img:active {
+  opacity: 0.5; 
+  border: 2px solid #ffffff;
+}
+
+.contact{
+  height: 20vh;
+  padding: 2% 5%;
+}
+footer{
+  height: 10vh;
+  text-align: center;
+}
+
+        /* Social Icons */
+        .social-icons {
+          margin-top: 20px;
+          text-align: center;
+      }
+
+      .social-icon {
+          font-size: 30px;
+          margin: 20px 10px;
+          text-align: center  ;
+          color: #ccc;
+          transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+      }
+
+      .social-icon:hover {
+      color: #71b138 !important;
+}
+@keyframes pulsate {
+  0% {
+      box-shadow: 0 0 20px #c797eb; /* Start with a lower glow intensity */
+      transform: scale(1); /* Initial scale */
+  }
+  50% {
+      box-shadow: 0 0 50px #c797eb; /* Peak glow intensity at 50% of the animation */
+      transform: scale(1.1); /* Slightly increase the size */
+  }
+  100% {
+      box-shadow: 0 0 20px #c797eb; /* Return to a lower glow intensity */
+      transform: scale(1); /* Back to the original size */
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  /* Styling the menu button */
+  .menu-btn {
+      position: absolute;
+      z-index: 3;
+      right: 35px;
+      top: 35px;
+      cursor: pointer;
+      transition: all 0.5s ease-out;
+  }
+  /* Styling the hamburger lines */
+  .menu-btn .btn-line {
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px 0;
+      background: white;
+      transition: all 0.5s ease-out;
+  }
+
+  /* Adding transform to the X */
+  .menu-btn.close {
+      transform: rotate(180deg);
+  }
+
+  /* Styling the three lines to make it an X */
+  .menu-btn.close .btn-line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-btn.close .btn-line:nth-child(2) {
+      opacity: 0;
+  }
+
+  .menu-btn.close .btn-line:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -6px);
+  }
+
+  /* Styling the position of the menu icon */
+  .menu {
+      display: block;
+      visibility: hidden;
+  }
+
+
+  .menu-nav {
+      display: block;
+      list-style: none;
+  }
+  header{
+    height: 10%;
+  }
+  .menu.show {
+      visibility: visible;
+  }
+
+  .logo {
+      padding-left: 100px;
+  }
+
+  /* Adding a transition delay to the 4 items in the navigation menu */
+  .nav-item:nth-child(1) {
+      transition-delay: 0.1s;
+  }
+
+  .nav-item:nth-child(2) {
+      transition-delay: 0.2s;
+  }
+
+  .nav-item:nth-child(3) {
+      transition-delay: 0.3s;
+  }
+
+  .nav-item:nth-child(4) {
+      transition-delay: 0.4s;
+  }
+
+  
+.nav-item {
+  padding-left: 100px;
+  padding-top:10px;
+}
+
+
+
+.Details {
+  text-align: center;
+  margin: 8% 5%; 
+}
+
+.college-name{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.fest-name{
+  font-weight: 800;
+  font-size: 4em;
+}
+.tag-line{
+  font-weight: 500;
+  font-size: 1.5em;
+
+}
+
+.home {
+  height: 84%
+}
+
+
+.about-us-box h1 {
+  font-size:5em;
+}
+
+.about-btn{
+  font-size: 1em;
+}
+.about-btn.active {
+  border-bottom: 2px solid white;
+  color: white;
+}
+iframe{
+  width: 100%;
+  height: auto;
+}
+.content{
+  font-size: 80%;
+  text-align: justify;
+}
+.gallery-title{
+  font-size: 3em;
+}
+
+footer{
+  padding-top: 20%;
+} 
+}
