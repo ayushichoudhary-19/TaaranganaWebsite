@@ -12,10 +12,13 @@
 ## Screenshots
 ![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/712b0069-4ec0-4b58-8e32-4f961087a3a2)
 
-![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/f44a95b2-4150-4b8a-b558-5222c07e5620)
+![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/f44a95b2-4150-4b8a-b558-5222c07e5620 )
 
-![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/7101c912-c858-49bf-8d64-7d21837097cf)
+<div align="center" style="height: 10px;">
 
+   ![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/7101c912-c858-49bf-8d64-7d21837097cf)
+
+</div>
 
 
 
