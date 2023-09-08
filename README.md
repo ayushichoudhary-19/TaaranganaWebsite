@@ -4,7 +4,11 @@
    <h1>Hi there, this is a Demo website for our college's cultural fest -  <a href="https://github.com/ayushichoudhary-19/">Tarangana</a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 </div>
 
-## Please Give a ⭐ to this repo if you like my work!
+
+## Demo
+### Please Give a ⭐ to this repo if you like my work!
+Explore the live demo of the Finivesta demo website by clicking [here](https://ayushichoudhary-19.github.io/TaranganaWebsite/).
+
 ![image](https://github.com/ayushichoudhary-19/TaranganaWebsite/assets/73214455/32880f94-e029-4e00-8447-c5dfc7c0704a)
 
 
@@ -14,7 +18,6 @@
 ## Table of Contents
 
 - [About](#about)
-- [Demo](#demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [MIT License](#mit-license)
@@ -24,10 +27,6 @@
 Welcome to Tarangana's demo website repository. This project os solely created for the recruitment task of Tarangana. Please note that this is not the official website but a demo website developed for the recruitment process.
 
 **Disclaimer:** The content and images used in the website is random and used for demonstration purposes and is not 100% authentic.
-
-## Demo
-
-Explore the live demo of the Finivesta demo website by clicking [here](https://ayushichoudhary-19.github.io/TaranganaWebsite/).
 
 ## Features
 
