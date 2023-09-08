@@ -175,7 +175,6 @@ header {
   transform: translateX(-50%);
   cursor: pointer;
   z-index: 1000;
-
 }
 
 
@@ -456,6 +455,20 @@ body {
 .nav-item {
   padding-left: 100px;
   padding-top:10px;
+}
+
+
+.glowing-arrow {
+display:none
+}
+
+
+.arrow-circle {
+display:none
+}
+
+.arrow-circle i {
+display: none;
 }
 
 
