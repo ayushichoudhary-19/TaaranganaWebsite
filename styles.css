@@ -518,6 +518,11 @@ iframe{
 .gallery-title{
   font-size: 3em;
 }
+  .image-options{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
 
 footer{
   padding-top: 20%;
