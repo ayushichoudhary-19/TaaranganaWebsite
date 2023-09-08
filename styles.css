@@ -376,7 +376,7 @@ footer{
 @media (max-width: 768px) {
 body {
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
   
   .menu-btn {
