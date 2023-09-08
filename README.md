@@ -5,9 +5,9 @@
 </div>
 
 
-## Demo
-### Please Give a ⭐ to this repo if you like my work!
-Explore the live demo of the Finivesta demo website by clicking [here](https://ayushichoudhary-19.github.io/TaranganaWebsite/).
+### Please give a ⭐ to this repo if you like my work!
+
+## Demo: [here](https://ayushichoudhary-19.github.io/TaranganaWebsite/)!
 
 <br>
 
